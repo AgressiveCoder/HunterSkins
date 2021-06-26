@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fullpage.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+ <!-- <nav class="navbar text-center navbar-expand-sm  fixed-top navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        HS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">О Нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Тарифы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+    <div id="fullPage">
+      <div class="section header">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+
+              </div>
+              <div class="col-md-8">
+                <a href=""><img class="wow fadeInDownBig" src="img/perspective.min.png" alt=""></a>
+                <h2 class="wow fadeInUpBig"><span class="facon">HunterSkins -</span></h2>
+                <p class="text-uppercase wow fadeInUpBig">это новый уровень трейда редких cs:go скинов</p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section about text-center">
+        <div class="container">
+          <div class="row">
+            <h2 class>Как это работает?</h2>
+            <div class="col-md-4 col-xs-6 col-sm-6">
+
+              <div class="box">
+                <div class="icon">
+                  <h3><i class="fas fa-stopwatch"></i>Экономия времени</h3>
+                  
+                </div>
+                <div class="text-block">
+                  Теперь не нужно искать редкие скины вручную часами.Наши боты сделают это за вас. Вам остается лишь купить нужный вам скин , который нашел бот
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-sm-6">
+              <div class="box">
+
+                <div class="icon">
+                  
+                  <h3><i class="far fa-gem"></i>Редкие скины</h3>
+                </div>
+                <div class="text-block">
+                  <p>Наши боты каждый час находят более 1000 скинов с редкими значениями float и редкими стикерами</p>
+                   
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-sm-6">
+              <div class="box">
+
+                <div class="icon">
+                  <h3><i class="fas fa-shopping-cart"></i>Покупка</h3>
+                  
+                </div>
+                <div class="text-block">
+                  <p>Вам остается лишь купить только лучшие скины за которые переплачивает cs.money и коллекционеры</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section pricing text-center">
+        <div class="slide">
+          <h2>text</h2>
+        </div>
+        <div class="slide">
+          <h2>text</h2>
+        </div>
+        <div class="slide">
+          <h2>text</h2>
+        </div>
+        <div class="slide">
+          <h2>text</h2>
+        </div>
+      </div>
+
+      <div class="section contact">
+
+      </div>
+
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      
+    </script>
+    <script>
+      wow = new WOW({
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      })
+      wow.init();
+
+        new fullpage('#fullPage', {
+        autoScrolling: true ,
+        navigation: true ,
+        anchors : ['section1' , 'section2' , 'section3'] ,
+        navigationTooltips: ['HunterSkins' , 'Принцип работы' , 'Тарифы' , 'Контакты'] ,
+        showActiveTooltip: true ,
+        scrollingSpeed: 700 , 
+        controlArrows: false ,
+        slidesNavigation: true
+      })
+
+    </script>
+</body>
+</html>

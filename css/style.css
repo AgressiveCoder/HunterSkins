@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Carbon ;
+    src: url(../fonts/carbon2.otf);
+}
+
+@font-face {
+    font-family: 'Facon';
+    src: url(../fonts/facon.otf);
+}
+
+.header h2 , .header p{
+    font-family: 'Montserrat';
+    text-align: center;
+    color:#fff;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-size: cover;
+    background-attachment:fixed ;
+    background:url('../img/bg.jpg');
+}
+
+.navbar{
+    font-family: 'Carbon';
+    font-size:1.2rem;
+    background: rgba(0, 0, 0, 0.336);
+}
+
+.navbar-brand {
+    font-family: 'Facon';
+    font-size: 2rem;
+}
+
+.navbar-brand::first-letter{
+    font-size: 2.1rem;
+}
+
+#fp-nav span{
+    background: #fff !important;
+}
+
+.facon{
+    font-family: 'Carbon';
+}
+
+.header img{
+    width: 100%;
+    transition: all ease-out 0.5s;    
+}
+
+.header img:hover{
+    transition: all ease-out 0.5s;    
+    filter:saturate(200%);
+    transform:scale(1.1)
+}
+
+.about{
+    color:#fff;
+    background:rgba(0, 0, 0, 0.158);
+}
+
+.about h2{
+    font-size: 3rem;
+}
+
+.about .col-md-3{
+    border:1px solid #fff;
+}
+
+.box{
+    margin:0.5rem 0;
+    padding:1rem 0.25rem;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.322);
+}
+
+
+
+.about .box i{
+    margin:0 0.3rem 0.5rem 0;
+    font-size: 1.25rem;
+    color:#fff;
+}
+
+
+
+
+
