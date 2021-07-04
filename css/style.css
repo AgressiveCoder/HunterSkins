@@ -327,10 +327,6 @@ body{
         margin-top: 0.5rem;
     }
 
-    .card-info{
-        height: 22rem;
-    }
-
     .contacts .admin{
         width: 11.5rem;
         height: 11.5rem;
@@ -378,6 +374,11 @@ body{
 
     .hover-text i{
         margin-top: 0.5rem;
+    }
+
+    .contacts .admin{
+        width: 10rem;
+        height: 10rem;
     }
 }
 
