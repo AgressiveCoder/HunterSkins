@@ -53,6 +53,7 @@ body{
 
 .header img{
     height:600px;
+    display: block;
     transition: all ease-out 0.5s;    
 }
 
@@ -301,79 +302,63 @@ body{
 }
 
 
+@media only screen and (max-width: 960px) {
+    .header img{
+        margin: 0 auto;
+        height:340px;
+    }
+
+    .header .text {
+        margin: 0rem 0 0 0;
+    }
+
+    .card-img img{
+        width: 400px;
+    }
+
+    .card-block {
+        height: 20rem;
+    }
+
+    .button-group{
+        margin-top: 1rem;
+    }
+
+    .button-group button{
+        margin-top: 0.5rem;
+    }
+
+    .card-info{
+        height: 22rem;
+    }
+
+    .contacts .admin{
+        width: 11.5rem;
+        height: 11.5rem;
+    }
+
+    .hover-text{
+        padding: 2rem 0 0 0;
+    }
+
+    .hover-text i{
+        font-size: 2.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+
 
 
 @media only screen and (max-width: 540px) {
-    .header img{
-        height:300px;
-    }
-
-    .button-group{
-        margin-top: 0;
-    }
-
-    .card-block{
-        height: 25rem;
-    }
-
-    .card-img img{
-        width: 400px;
-    }
-
-    .contacts .admin{
-        width: 10rem;
-        height: 10rem;
-    }
-}
-
-
-@media only screen and (max-width: 720px) {
-    .header img{
-        height:320px;
-        
-    }
-
-    .button-group{
-        margin-top: 0;
-    }
-
-    .card-img img{
-        width: 400px;
-    }
-
-    .card-block{
-        height: 15rem;
-    }
-
-    .contacts .admin{
-        width: 10rem;
-        height: 10rem;
-    }
-}
-
-@media only screen and (max-width: 960px) {
-    .header img{
-        height:320px;
-    }
-
-    .card-img img{
-        width: 400px;
-    }
-
-    .card-block{
-        height: 17rem;
-    }
-
-    .button-group{
-        margin-top: 0;
-    }
-
-    .contacts .admin{
-        width: 10rem;
-        height: 10rem;
-    }
 
 }
+
+
+
 
 
 
