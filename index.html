@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
- <!-- <nav class="navbar text-center navbar-expand-sm  fixed-top navbar-dark">
+ <!--  <nav class="navbar text-center navbar-expand-sm  fixed-top navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         HS
@@ -185,7 +185,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
               <div class="card-block">
-                <div class="card-img card-img-fh">
+                <div id="card-hover" class="card-img card-img-fh">
                   <img  src="img/redline.png" class="img-def" alt="">
                   <img src="img/redline-holo.png" alt="" class="img-hover">
                 </div>
@@ -257,17 +257,13 @@
                 <div class="hover-text">
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-sm-4">
+                      <div class="col-sm-6">
                         <a href="">
                           <i class="fab fa-telegram"></i>
                         </a>
                       </div>
-                      <div class="col-sm-4">
+                      <div class="col-sm-6">
                         <a href=""><i class="fab fa-steam"></i></a>
-                        
-                      </div>
-                      <div class="col-sm-4">
-                        <a href=""><i class="fab fa-instagram"></i></a>
                         
                       </div>
                     </div>
@@ -286,16 +282,12 @@
                 <div class="hover-text">
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-sm-4">
+                      <div class="col-sm-6">
                         <a href=""><i class="fab fa-telegram"></i></a>
                         
                       </div>
-                      <div class="col-sm-4">
+                      <div class="col-sm-6">
                         <a href=""><i class="fab fa-steam"></i></a>
-                        
-                      </div>
-                      <div class="col-sm-4">
-                        <a href=""><i class="fab fa-instagram"></i></a>
                         
                       </div>
                     </div>
@@ -313,16 +305,12 @@
                 <div class="hover-text">
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-sm-4 col-xs-4">
+                      <div class="col-sm-6">
                         <a href=""><i class="fab fa-telegram"></i></a>
                         
                       </div>
-                      <div class="col-sm-4 col-xs-4">
+                      <div class="col-sm-6">
                         <a href=""><i class="fab fa-steam"></i></a>
-                        
-                      </div>
-                      <div class="col-sm-4 col-xs-4">
-                        <a href=""><i class="fab fa-instagram"></i></a>
                         
                       </div>
                     </div>
@@ -363,8 +351,8 @@
       VanillaTilt.init(document.querySelectorAll(".parallax"), {
         max: 5,
         speed: 400 ,
-       /* glare:true ,
-        "max-glare": 1 , */
+        glare:true ,
+        "max-glare": 0.2 ,
         scale: 1.05
       }); 
 
@@ -380,7 +368,7 @@
         new fullpage('#fullPage', {
         autoScrolling: true ,
         navigation: true ,
-        anchors : ['section1' , 'section2' , 'section3'] ,
+        anchors : ['HunterSkins' , 'How' , 'FH' , 'SH' , 'Contacts'] ,
         navigationTooltips: ['HunterSkins' , 'Принцип работы' , 'FloatHunter' , 'StickerHunter' , 'Контакты'] ,
         showActiveTooltip: true ,
         scrollingSpeed: 700 , 
