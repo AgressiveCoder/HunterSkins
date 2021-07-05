@@ -118,6 +118,10 @@ body{
     background: #fff !important;
 }
 
+.header{
+    background: linear-gradient(360deg , #b92c2700, #1565c08f );
+}
+
 .about{
     background: linear-gradient(0 , #1565c08f , #b92c2700);
 }
@@ -127,7 +131,11 @@ body{
 }
 
 .sh{
-    background: linear-gradient(0 , #1565c000 , #b92c275d);
+    background: linear-gradient(0deg ,#b92c275d , #1565c000 , #b92c275d);
+}
+
+.contacts{
+    background: linear-gradient(360deg , #1565c08f ,#b92c275d );
 }
 
 .card-block{
@@ -246,6 +254,11 @@ body{
     opacity: 30%;
 }
 
+.contacts h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
 .contacts .admin{
     width: 15rem;
     height: 15rem;
@@ -284,9 +297,42 @@ body{
     transition: all linear 0.4s;
 }
 
+
 .hover-text i{
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
     color:#fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    transition: all linear 0.3s;
+}
+
+.hover-text .fa-telegram{
+    color:#0088cc;
+}
+
+.hover-text .fa-steam{
+    color:#2a475e;
+}
+
+.hover-text .fa-envelope{
+    color:#168de2;
+}
+
+.hover-text .fa-behance-square{
+    font-size: 2.4rem;
+    padding: 0.6rem;
+    color: #1769ff;
+}
+
+.hover-text i:hover{
+    border:1px solid #fff;
+    transition: all linear 0.3s;
+    -webkit-box-shadow: 16px 20px 13px 4px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 16px 20px 13px 4px rgba(0, 0, 0, 0.26);
+    box-shadow: 16px 20px 13px 4px rgba(0, 0, 0, 0.26);
+    color:#fff;
+    background: rgba(255, 255, 255, 0);
 }
 
 .admin:hover .hover-text{
@@ -379,7 +425,7 @@ body{
     }
     
     .admin:hover .hover-text{
-        transform: translateY(1.5rem);
+        transform: translateY(0rem);
     }
 
     .hover-text{
@@ -387,12 +433,13 @@ body{
     }
 
     .hover-text i{
+        font-size: 2rem;
         margin-top: 0.5rem;
     }
 
     .contacts .admin{
-        width: 10rem;
-        height: 10rem;
+        width: 9rem;
+        height: 9rem;
     }
 }
 
